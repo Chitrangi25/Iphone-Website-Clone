@@ -7,7 +7,7 @@ import * as THREE from 'three'
 import { View } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import { models, sizes } from "../constants"
-import { animateWithGsapTimeline } from "../utils/Animations"
+import { animateWithGsapTimeline } from "../utils/animations"
 const Model = () => {
 
   const [size, setSize] = useState('small')
